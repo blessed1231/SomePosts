@@ -2,13 +2,12 @@ import React, {useContext, useState} from 'react';
 import '../index.css'
 import useInput from "../hooks/useInput.js";
 import {mockUsers} from "../mockUsers.js";
-import {useAsyncValue} from "react-router-dom";
-import {useAuth} from "../hooks/useAuth.jsx";
+// import {useAuth} from "../hooks/useAuth.js";
 
 const LoginPage = () => {
     const email = useInput()
     const password = useInput()
-    const isAuth = useAuth()
+    // const isAuth = useAuth()
 
     function mockLogin() {
         if (email.value === undefined || password.value== undefined || email.value === '' || password.value === '' ){

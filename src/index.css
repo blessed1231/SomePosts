@@ -85,3 +85,7 @@ a {
     align-items: center;
     height: calc(100vh - 132px);
 }
+
+.posts__pagination {
+
+}
