@@ -86,6 +86,20 @@ a {
     height: calc(100vh - 132px);
 }
 
-.posts__pagination {
+.posts__ul {
+    display: flex;
+    list-style-type: none;
+    width: 100vh;
+    justify-content: center;
+    margin-top: 15px;
+}
 
+.posts__list_items {
+    border: 1px solid teal;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.posts__list_item_active {
+    background-color: teal;
 }
